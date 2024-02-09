@@ -1,0 +1,1792 @@
+.desktop {
+  position: absolute;
+}
+.mobile {
+  position: absolute;
+}
+.tablet {
+  position: absolute;
+}
+.container {
+  width: 100%;
+  margin: 0% auto;
+  background-color: white;
+}
+.navbar {
+  width: 100%;
+  background-color: rgb(69, 4, 142);
+  margin: 0% auto;
+  display: inline-block;
+  top: 0;
+  position: sticky;
+  z-index: 2;
+}
+.mainnav {
+  width: 80%;
+  height: 85px;
+  margin: 0% 17%;
+}
+.navlogo {
+  background-color: rgb(69, 4, 142);
+  display: inline-block;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+
+.navtext {
+  margin: 15px;
+  display: inline-block;
+  position: relative;
+}
+.txt {
+  display: inline-block;
+  margin-left: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+.txt:hover {
+  text-decoration: underline;
+}
+.signup {
+  display: inline-block;
+  margin-left: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+.signup:hover {
+  text-decoration: underline;
+}
+.background {
+  background-image: url(./banner.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  display: inline-block;
+}
+.bgtxt {
+  position: absolute;
+  color: white;
+  margin-top: 8%;
+  margin-left: 28%;
+  font-size: 45px;
+  font-family: sans-serif;
+}
+.bglogo {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 31%;
+}
+.bglogo:hover {
+  cursor: pointer;
+}
+.bginput {
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 29%;
+  display: flex;
+}
+.buttonset {
+  position: absolute;
+  margin-left: 100%;
+  display: flex;
+}
+.button {
+  position: absolute;
+  margin-top: 28%;
+  width: 170px;
+  height: 68px;
+  display: flex;
+  margin-left: 2px;
+  font-size: 20px;
+  align-items: center;
+  padding-left: 45px;
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+}
+.button:hover {
+  width: 173px;
+  height: 70px;
+  transition-duration: 1s;
+}
+.footertxt {
+  font-weight: bolder;
+  position: absolute;
+  color: white;
+  margin-left: 390px;
+  margin-top: 460px;
+}
+.bgfooter {
+  text-align: center;
+  margin: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.body {
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  margin: 0% auto;
+}
+.bodysec {
+  width: 90%;
+  margin: 0% auto;
+  background-color: rgb(249, 246, 246);
+  display: flex;
+}
+.bodytxt {
+  width: 50%;
+  margin: 30px 0px 30px 60px;
+  background-color: rgb(249, 246, 246);
+  font-family: sans-serif;
+}
+.bodybutton {
+  border: 1px solid rgb(98, 221, 255);
+  border-radius: 30px;
+  padding: 10px 20px 10px 20px;
+  color: rgb(16, 199, 199);
+}
+.bodybutton:hover {
+  border: 1px solid rgb(98, 221, 255);
+  border-radius: 30px;
+  padding: 12px 22px 12px 22px;
+  font-size: 14px;
+  color: rgb(16, 199, 199);
+  transition: 0.5s;
+  background-color: rgb(218, 215, 215);
+}
+.img {
+  display: flex;
+  margin-top: 30px;
+  height: 260px;
+  margin: 2% auto;
+}
+.bodytxt1 {
+  width: 70%;
+  margin: 3% auto;
+}
+.txt1 {
+  width: 70%;
+  margin: 0% auto;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.boxes {
+  display: flex;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+.box1 {
+  width: 20%;
+  height: 30px;
+  margin: 0% auto;
+}
+.box2 {
+  width: 20%;
+  height: 30px;
+  margin: 0% auto;
+}
+.box3 {
+  width: 20%;
+  height: 30px;
+}
+.box4 {
+  width: 20%;
+  height: 30px;
+  margin: 0% auto;
+}
+.box5 {
+  width: 20%;
+  height: 30px;
+  margin: 0% auto;
+}
+.boxtxt {
+  color: lightseagreen;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+.boxtxt:hover {
+  text-decoration: underline;
+}
+.image1 {
+  margin-top: 850px;
+  width: 100px;
+  height: 100px;
+}
+.image1d {
+  margin-top: 250px;
+  margin-left: 10%;
+}
+.businessimage {
+  margin-top: 50px;
+  margin-left: 10%;
+}
+.miracleimage {
+  margin-left: 2%;
+}
+.image2txt {
+  color: lightseagreen;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-top: 10px;
+  display: inline-block;
+}
+.image2txt:hover {
+  text-decoration: underline;
+}
+.image2txt2 {
+  color: lightseagreen;
+  font-weight: bold;
+  margin-left: 33%;
+  display: inline-block;
+}
+.image2txt2:hover {
+  text-decoration: underline;
+}
+.valentinebox {
+  width: 100%;
+  margin-left: 10%;
+  display: flex;
+}
+.valentine1head {
+  font-size: 35px;
+  display: inline-block;
+  margin-left: 4%;
+  margin-top: 20px;
+}
+.valentine1txt {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 25%;
+}
+.underline {
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 25%;
+  color: rgb(16, 199, 199);
+}
+.underline:hover {
+  text-decoration: underline;
+}
+.valentine2 {
+  position: absolute;
+}
+.valentine2img {
+  position: relative;
+  margin-top: 30%;
+  display: inline-block;
+  position: absolute;
+}
+.valentine2head {
+  font-size: 35px;
+  margin-left: 335px;
+  margin-top: 32%;
+  margin-bottom: 20px;
+}
+.valentine2txt {
+  margin-left: 335px;
+}
+.line {
+  color: rgb(16, 199, 199);
+  position: absolute;
+  margin-left: 335px;
+  margin-top: 2%;
+}
+.line:hover {
+  text-decoration: underline;
+}
+.image3d {
+  margin-top: 30%;
+  margin-left: 10%;
+}
+.image3 {
+  margin-top: 30%;
+  margin-left: 10%;
+}
+.button1 {
+  border: 1px solid rgb(98, 221, 255);
+  border-radius: 30px;
+  padding: 10px 20px 10px 20px;
+  color: rgb(16, 199, 199);
+  margin-left: 13%;
+  margin-top: 1%;
+}
+.button1:hover {
+  border: 1px solid rgb(98, 221, 255);
+  border-radius: 30px;
+  padding: 12px 22px 12px 22px;
+  font-size: 14px;
+  color: rgb(16, 199, 199);
+  transition: 0.5s;
+  background-color: rgb(218, 215, 215);
+}
+.button2 {
+  border: 1px solid rgb(98, 221, 255);
+  border-radius: 30px;
+  padding: 10px 20px 10px 20px;
+  color: rgb(16, 199, 199);
+  margin-left: 30%;
+  margin-top: 1%;
+}
+.button2:hover {
+  border: 1px solid rgb(98, 221, 255);
+  border-radius: 30px;
+  padding: 12px 22px 12px 22px;
+  font-size: 14px;
+  color: rgb(16, 199, 199);
+  transition: 0.5s;
+  background-color: rgb(218, 215, 215);
+}
+.image4 {
+  margin-top: 50px;
+  margin-left: 10%;
+}
+.text {
+  margin-top: 50px;
+  margin-left: 10%;
+  width: 80%;
+}
+.businesstxt2 {
+  width: 70%;
+  margin: 0% auto;
+}
+.txt2 {
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 20%;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.packageimg {
+  display: flex;
+  margin: 4% auto;
+  width: 80%;
+}
+.packagelogo {
+  font-weight: lighter;
+  margin-left: 2%;
+}
+.pkgbutton {
+  border: 1px solid rgb(98, 221, 255);
+  border-radius: 30px;
+  padding: 10px 20px 10px 20px;
+  color: rgb(16, 199, 199);
+}
+.pkgbutton:hover {
+  border: 1px solid rgb(98, 221, 255);
+  border-radius: 30px;
+  padding: 12px 22px 12px 22px;
+  font-size: 14px;
+  color: rgb(16, 199, 199);
+  transition: 0.5s;
+  background-color: rgb(218, 215, 215);
+}
+.packageimg1 {
+  display: flex;
+  margin: 4% auto;
+  width: 80%;
+}
+.packagelogo1 {
+  font-weight: lighter;
+  margin-left: 2%;
+}
+.pkgbutton1 {
+  border: 1px solid rgb(98, 221, 255);
+  border-radius: 30px;
+  padding: 10px 20px 10px 20px;
+  color: rgb(16, 199, 199);
+}
+.pkgbutton1:hover {
+  border: 1px solid rgb(98, 221, 255);
+  border-radius: 30px;
+  padding: 12px 22px 12px 22px;
+  font-size: 14px;
+  color: rgb(16, 199, 199);
+  transition: 0.5s;
+  background-color: rgb(218, 215, 215);
+}
+.table {
+  margin-left: 10%;
+  margin-top: 4%;
+}
+.tablehead {
+  color: purple;
+  padding: 20px;
+  padding-left: 10px;
+}
+.tablebody {
+  padding: 8px;
+}
+.tablebody:hover {
+  text-decoration: underline;
+}
+.lastpg {
+  margin-left: 130px;
+  margin-top: 40px;
+  height: 70px;
+}
+.footer {
+  background-color: rgb(69, 4, 142);
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  display: flex;
+}
+.footer1 {
+  margin-left: 20%;
+  margin-top: 1%;
+  color: white;
+}
+.footer2 {
+  margin-left: 30%;
+  margin-top: 1%;
+  color: white;
+}
+
+@media (min-width: 1024px) {
+  .desktop {
+    position: relative;
+
+    text-align: center;
+
+    background-color: red;
+  }
+  .mobile {
+    position: absolute;
+    display: none;
+  }
+  .tablet {
+    position: absolute;
+    display: none;
+  }
+  .container {
+    width: 100%;
+    margin: 0% auto;
+    background-color: white;
+  }
+  .navbar {
+    width: 100%;
+    background-color: rgb(69, 4, 142);
+    margin: 0% auto;
+    display: inline-block;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+  }
+  .mainnav {
+    width: 80%;
+    height: 85px;
+    margin: 0% 17%;
+  }
+  .navlogo {
+    background-color: rgb(69, 4, 142);
+    display: inline-block;
+    padding-top: 20px;
+    margin-right: 20px;
+  }
+
+  .navtext {
+    margin: 15px;
+    display: inline-block;
+    position: relative;
+  }
+  .txt {
+    display: inline-block;
+    margin-left: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  .txt:hover {
+    text-decoration: underline;
+  }
+  .signup {
+    display: inline-block;
+    margin-left: 50px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  .signup:hover {
+    text-decoration: underline;
+  }
+  .background {
+    background-image: url(./banner.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: inline-block;
+  }
+  .bgtxt {
+    position: absolute;
+    color: white;
+    margin-top: 8%;
+    margin-left: 28%;
+    font-size: 45px;
+    font-family: sans-serif;
+  }
+  .bglogo {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 31%;
+  }
+  .bglogo:hover {
+    cursor: pointer;
+  }
+  .bginput {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 29%;
+    display: flex;
+  }
+  .buttonset {
+    position: absolute;
+    margin-left: 100%;
+    display: flex;
+  }
+  .button {
+    position: absolute;
+    margin-top: 28%;
+    width: 170px;
+    height: 68px;
+    display: flex;
+    margin-left: 2px;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 45px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+  }
+  .button:hover {
+    width: 173px;
+    height: 70px;
+    transition-duration: 1s;
+  }
+  .footertxt {
+    font-weight: bolder;
+    position: absolute;
+    color: white;
+    margin-left: 390px;
+    margin-top: 460px;
+  }
+  .bgfooter {
+    text-align: center;
+    margin: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .body {
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    margin: 0% auto;
+  }
+  .bodysec {
+    width: 90%;
+    margin: 0% auto;
+    background-color: rgb(249, 246, 246);
+    display: flex;
+  }
+  .bodytxt {
+    width: 50%;
+    margin: 30px 0px 30px 60px;
+    background-color: rgb(249, 246, 246);
+    font-family: sans-serif;
+  }
+  .bodybutton {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(16, 199, 199);
+  }
+  .bodybutton:hover {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 12px 22px 12px 22px;
+    font-size: 14px;
+    color: rgb(16, 199, 199);
+    transition: 0.5s;
+    background-color: rgb(218, 215, 215);
+  }
+  .img {
+    display: flex;
+    margin-top: 30px;
+    height: 260px;
+    margin: 2% auto;
+  }
+  .bodytxt1 {
+    width: 70%;
+    margin: 3% auto;
+  }
+  .txt1 {
+    width: 70%;
+    margin: 0% auto;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  .boxes {
+    display: flex;
+    margin-left: 8%;
+    margin-top: 2%;
+  }
+  .box1 {
+    width: 20%;
+    height: 30px;
+    margin: 0% auto;
+  }
+  .box2 {
+    width: 20%;
+    height: 30px;
+    margin: 0% auto;
+  }
+  .box3 {
+    width: 20%;
+    height: 30px;
+  }
+  .box4 {
+    width: 20%;
+    height: 30px;
+    margin: 0% auto;
+  }
+  .box5 {
+    width: 20%;
+    height: 30px;
+    margin: 0% auto;
+  }
+  .boxtxt {
+    color: lightseagreen;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+  .boxtxt:hover {
+    text-decoration: underline;
+  }
+  .image1 {
+    display: none;
+  }
+
+  .image1d {
+    margin-top: 250px;
+    margin-left: 10%;
+  }
+  .businessimage {
+    margin-top: 50px;
+    margin-left: 10%;
+  }
+  .miracleimage {
+    margin-left: 2%;
+  }
+  .image2txt {
+    color: lightseagreen;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  .image2txt:hover {
+    text-decoration: underline;
+  }
+  .image2txt2 {
+    color: lightseagreen;
+    font-weight: bold;
+    margin-left: 33%;
+    display: inline-block;
+  }
+  .image2txt2:hover {
+    text-decoration: underline;
+  }
+  .valentinebox {
+    width: 100%;
+    margin-left: 10%;
+    display: flex;
+  }
+  .valentine1head {
+    font-size: 35px;
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 20px;
+  }
+  .valentine1txt {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 25%;
+  }
+  .underline {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 25%;
+    color: rgb(16, 199, 199);
+  }
+  .underline:hover {
+    text-decoration: underline;
+  }
+  .valentine2 {
+    position: absolute;
+  }
+  .valentine2img {
+    position: relative;
+    margin-top: 30%;
+    display: inline-block;
+    position: absolute;
+  }
+  .valentine2head {
+    font-size: 35px;
+    margin-left: 335px;
+    margin-top: 32%;
+    margin-bottom: 20px;
+  }
+  .valentine2txt {
+    margin-left: 335px;
+  }
+  .line {
+    color: rgb(16, 199, 199);
+    position: absolute;
+    margin-left: 335px;
+    margin-top: 2%;
+  }
+  .line:hover {
+    text-decoration: underline;
+  }
+  .image3d {
+    margin-top: 30%;
+    margin-left: 10%;
+  }
+  .image3 {
+    display: none;
+  }
+  .button1 {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(16, 199, 199);
+    margin-left: 13%;
+    margin-top: 1%;
+  }
+  .button1:hover {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 12px 22px 12px 22px;
+    font-size: 14px;
+    color: rgb(16, 199, 199);
+    transition: 0.5s;
+    background-color: rgb(218, 215, 215);
+  }
+  .button2 {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(16, 199, 199);
+    margin-left: 30%;
+    margin-top: 1%;
+  }
+  .button2:hover {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 12px 22px 12px 22px;
+    font-size: 14px;
+    color: rgb(16, 199, 199);
+    transition: 0.5s;
+    background-color: rgb(218, 215, 215);
+  }
+  .image4d {
+    margin-top: 50px;
+    margin-left: 10%;
+  }
+  .image4 {
+    display: none;
+  }
+  .text {
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .businesstxt2 {
+    width: 70%;
+    margin: 0% auto;
+  }
+  .txt2 {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 20%;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  .packageimg {
+    display: flex;
+    margin: 4% auto;
+    width: 80%;
+  }
+  .packagelogo {
+    font-weight: lighter;
+    margin-left: 2%;
+  }
+  .pkgbutton {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(16, 199, 199);
+  }
+  .pkgbutton:hover {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 12px 22px 12px 22px;
+    font-size: 14px;
+    color: rgb(16, 199, 199);
+    transition: 0.5s;
+    background-color: rgb(218, 215, 215);
+  }
+  .packageimg1 {
+    display: flex;
+    margin: 4% auto;
+    width: 80%;
+  }
+  .packagelogo1 {
+    font-weight: lighter;
+    margin-left: 2%;
+  }
+  .pkgbutton1 {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(16, 199, 199);
+  }
+  .pkgbutton1:hover {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 12px 22px 12px 22px;
+    font-size: 14px;
+    color: rgb(16, 199, 199);
+    transition: 0.5s;
+    background-color: rgb(218, 215, 215);
+  }
+  .table {
+    margin-left: 10%;
+    margin-top: 4%;
+  }
+  .tablehead {
+    color: purple;
+    padding: 20px;
+    padding-left: 10px;
+  }
+  .tablebody {
+    padding: 8px;
+  }
+  .tablebody:hover {
+    text-decoration: underline;
+  }
+  .lastpg {
+    margin-left: 130px;
+    margin-top: 40px;
+    height: 70px;
+  }
+  .footer {
+    background-color: rgb(69, 4, 142);
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    display: flex;
+  }
+  .footer1 {
+    margin-left: 20%;
+    margin-top: 1%;
+    color: white;
+  }
+  .footer2 {
+    margin-left: 30%;
+    margin-top: 1%;
+    color: white;
+  }
+}
+@media (max-width: 425px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    position: absolute;
+    position: relative;
+
+    text-align: center;
+
+    background-color: red;
+  }
+  .tablet {
+    position: absolute;
+    display: none;
+  }
+  .container {
+    width: 100%;
+    margin: 0% auto;
+    background-color: white;
+  }
+  .navbar {
+    width: 100%;
+    background-color: rgb(69, 4, 142);
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+
+    top: 0;
+    position: sticky;
+    z-index: 2;
+  }
+  .mainnav {
+    width: 80%;
+    height: 85px;
+    margin: 0% 17%;
+  }
+  .navlogo {
+    background-color: rgb(69, 4, 142);
+    display: inline-block;
+    padding-top: 26px;
+  }
+
+  .navtext {
+    margin: 15px;
+    display: none;
+    position: relative;
+  }
+  .txt {
+    display: none;
+    margin-left: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  .txt:hover {
+    text-decoration: underline;
+  }
+  .signup {
+    display: none;
+    margin-left: 50px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  .signup:hover {
+    text-decoration: underline;
+  }
+  .background {
+    background-image: url(./banner.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: inline-block;
+  }
+  .bgtxt {
+    position: absolute;
+    color: white;
+    margin-left: 20%;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  .bglogo {
+    position: absolute;
+    margin-top: 25%;
+    /* margin-left: 31%; */
+  }
+  .bglogo:hover {
+    cursor: pointer;
+  }
+  .bginput {
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin-top: 135%;
+    margin-left: 4%;
+  }
+  .buttonset {
+    position: absolute;
+    margin-left: 100%;
+    display: flex;
+  }
+  .button {
+    position: absolute;
+    margin-top: 30%;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    margin-left: 2px;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 45px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+  }
+  .button:hover {
+    width: 155px;
+    height: 52px;
+    transition-duration: 1s;
+  }
+  .footertxt {
+    flex-wrap: wrap;
+    font-weight: bolder;
+    position: absolute;
+    color: black;
+    margin-top: 500px;
+    margin-left: 20px;
+  }
+  .bgfooter {
+    text-align: center;
+    margin-top: 130px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .body {
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    margin: 0% auto;
+  }
+  .bodysec {
+    width: 90%;
+    margin: 0% auto;
+    background-color: rgb(249, 246, 246);
+    display: flex;
+  }
+  .bodytxt {
+    flex-wrap: wrap;
+    font-size: 8px;
+    margin: 0%;
+  }
+  .bodybutton {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(16, 199, 199);
+    font-size: 8px;
+  }
+  .bodybutton:hover {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 12px 22px 12px 22px;
+    font-size: 10px;
+    color: rgb(16, 199, 199);
+    transition: 0.5s;
+    background-color: rgb(218, 215, 215);
+  }
+  .img {
+    height: 120px;
+  }
+  .bodytxt1 {
+    text-align: center;
+    width: 100%;
+    margin: 0% auto;
+  }
+  .txt1 {
+    width: 70%;
+    margin: 0% auto;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
+  .box1 {
+    margin-left: 70px;
+    width: 100px;
+    height: 2000px;
+  }
+  .box2 {
+    margin-left: 70px;
+    width: 100px;
+    height: 500px;
+  }
+  .box3 {
+    margin-left: 55px;
+    width: 140px;
+    height: 500px;
+  }
+  .box4 {
+    margin-left: 70px;
+    width: 120px;
+    height: 500px;
+  }
+  .box5 {
+    margin-left: 78px;
+    width: 100px;
+    height: 500px;
+  }
+  .boxtxt {
+    color: lightseagreen;
+    font-weight: bold;
+    text-align: center;
+  }
+  .boxtxt:hover {
+    text-decoration: underline;
+  }
+  .image1d {
+    display: none;
+  }
+  .image1 {
+    margin-top: 850px;
+    margin-left: 25px;
+    width: 100px;
+    height: 100px;
+  }
+  .businessimage {
+    margin-top: 50px;
+    margin-left: 9%;
+    width: 300px;
+  }
+  .miracleimage {
+    margin-top: 30px;
+    margin-left: 9%;
+    width: 300px;
+  }
+  .image2txt {
+    display: none;
+  }
+  .image2txt:hover {
+    text-decoration: underline;
+  }
+  .image2txt2 {
+    color: lightseagreen;
+    font-weight: bold;
+    margin-left: 33%;
+    display: inline-block;
+  }
+  .image2txt2:hover {
+    text-decoration: underline;
+  }
+  .bodytxt1 {
+    display: none;
+  }
+  .valentinebox {
+    display: none;
+  }
+  .valentine1head {
+    display: none;
+  }
+  .valentine1txt {
+    display: none;
+  }
+  .underline {
+    display: none;
+  }
+  .underline:hover {
+    display: none;
+  }
+  .valentine2 {
+    display: none;
+  }
+  .valentine2img {
+    display: none;
+  }
+  .valentine2head {
+    display: none;
+  }
+  .valentine2txt {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .line:hover {
+    display: none;
+  }
+
+  .image3 {
+    margin-left: 30px;
+  }
+  .image3d {
+    display: none;
+  }
+  .button1 {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+    color: rgb(16, 199, 199);
+    margin-left: 10%;
+    margin-top: 1%;
+    font-size: 5px;
+  }
+  .button1:hover {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 6px 11px 6px 11px;
+    font-size: 7px;
+    color: rgb(16, 199, 199);
+    transition: 0.5s;
+    background-color: rgb(218, 215, 215);
+  }
+  .button2 {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+    color: rgb(16, 199, 199);
+    margin-left: 20%;
+    margin-top: 1%;
+    font-size: 5px;
+  }
+  .button2:hover {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 6px 11px 6px 11px;
+    font-size: 7px;
+    color: rgb(16, 199, 199);
+    transition: 0.5s;
+    background-color: rgb(218, 215, 215);
+  }
+  .image4d {
+    display: none;
+  }
+  .image4 {
+    margin-top: 50px;
+    margin-left: 10%;
+  }
+  .text {
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .businesstxt2 {
+    width: 70%;
+    margin: 0% auto;
+  }
+  .txt2 {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 3px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .packageimg {
+    display: none;
+  }
+  .packagelogo {
+    display: none;
+  }
+  .pkgbutton {
+    display: none;
+  }
+  .pkgbutton:hover {
+    display: none;
+  }
+  .packageimg1 {
+    display: none;
+  }
+  .packagelogo1 {
+    display: none;
+  }
+  .pkgbutton1 {
+    display: none;
+  }
+  .pkgbutton1:hover {
+    display: none;
+  }
+  .table {
+    margin-left: 0%;
+    margin-top: 2%;
+  }
+  .tablehead {
+    color: purple;
+    padding: 15px;
+    padding-left: 10px;
+  }
+  .tablebody {
+    padding: 0px;
+  }
+  .tablebody:hover {
+    text-decoration: underline;
+  }
+  .lastpg {
+    margin-left: 15px;
+    margin-top: 40px;
+    height: 70px;
+  }
+  .footer {
+    background-color: rgb(69, 4, 142);
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    display: flex;
+  }
+  .footer1 {
+    margin-left: 5%;
+    margin-top: 0%;
+    color: white;
+  }
+  .footer2 {
+    margin-left: 8%;
+    margin-top: 0%;
+    color: white;
+  }
+}
+@media (max-width: 1023px) and (min-width: 426px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: none;
+  }
+  .tablet {
+    position: relative;
+
+    text-align: center;
+
+    background-color: red;
+  }
+  .container {
+    width: 100%;
+    margin: 0% auto;
+    background-color: white;
+    flex-wrap: wrap;
+  }
+  .navbar {
+    width: 100%;
+    background-color: rgb(69, 4, 142);
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+  }
+  .mainnav {
+    width: 80%;
+    height: 85px;
+    margin: 0% 17%;
+    flex-wrap: wrap;
+  }
+  .navlogo {
+    background-color: rgb(69, 4, 142);
+    display: inline-block;
+    padding-top: 26px;
+    flex-wrap: wrap;
+  }
+
+  .navtext {
+    margin: 15px;
+    display: none;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  .txt {
+    display: none;
+    margin-left: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+    flex-wrap: wrap;
+  }
+  .txt:hover {
+    text-decoration: underline;
+    flex-wrap: wrap;
+  }
+  .signup {
+    display: none;
+    margin-left: 50px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+    flex-wrap: wrap;
+  }
+  .signup:hover {
+    text-decoration: underline;
+    flex-wrap: wrap;
+  }
+  .background {
+    background-image: url(./banner.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+  .bgtxt {
+    position: absolute;
+    color: white;
+    margin-left: 20%;
+    font-size: 20px;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+  }
+  .bglogo {
+    position: absolute;
+    margin-top: 25%;
+    /* margin-left: 31%; */
+    flex-wrap: wrap;
+  }
+  .bglogo:hover {
+    cursor: pointer;
+  }
+  .bginput {
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin-top: 135%;
+    margin-left: 4%;
+    flex-wrap: wrap;
+  }
+  .buttonset {
+    position: absolute;
+    margin-left: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .button {
+    position: absolute;
+    margin-top: 30%;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    margin-left: 2px;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 45px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    flex-wrap: wrap;
+  }
+  .button:hover {
+    width: 155px;
+    height: 52px;
+    transition-duration: 1s;
+    flex-wrap: wrap;
+  }
+  .footertxt {
+    flex-wrap: wrap;
+    font-weight: bolder;
+    position: absolute;
+    color: black;
+    margin-top: 500px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+  }
+  .bgfooter {
+    text-align: center;
+    margin-top: 130px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    flex-wrap: wrap;
+  }
+  .body {
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    margin: 0% auto;
+    flex-wrap: wrap;
+  }
+  .bodysec {
+    width: 90%;
+    margin: 0% auto;
+    background-color: rgb(249, 246, 246);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bodytxt {
+    flex-wrap: wrap;
+    font-size: 8px;
+    margin: 0%;
+  }
+  .bodybutton {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(16, 199, 199);
+    font-size: 8px;
+    flex-wrap: wrap;
+  }
+  .bodybutton:hover {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 12px 22px 12px 22px;
+    font-size: 10px;
+    color: rgb(16, 199, 199);
+    transition: 0.5s;
+    background-color: rgb(218, 215, 215);
+    flex-wrap: wrap;
+  }
+  .img {
+    height: 120px;
+    flex-wrap: wrap;
+  }
+  .bodytxt1 {
+    text-align: center;
+    width: 100%;
+    margin: 0% auto;
+    flex-wrap: wrap;
+  }
+  .txt1 {
+    width: 70%;
+    margin: 0% auto;
+    font-size: 25px;
+    font-weight: lighter;
+    flex-wrap: wrap;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    flex-wrap: wrap;
+  }
+  .box1 {
+    margin-left: 70px;
+    width: 100px;
+    height: 2000px;
+    flex-wrap: wrap;
+  }
+  .box2 {
+    margin-left: 70px;
+    width: 100px;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+  .box3 {
+    margin-left: 55px;
+    width: 140px;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+  .box4 {
+    margin-left: 70px;
+    flex-wrap: wrap;
+    width: 120px;
+    height: 500px;
+  }
+  .box5 {
+    margin-left: 78px;
+    width: 100px;
+    height: 500px;
+    flex-wrap: wrap;
+  }
+  .boxtxt {
+    color: lightseagreen;
+    font-weight: bold;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .boxtxt:hover {
+    text-decoration: underline;
+  }
+  .image1d {
+    display: none;
+    flex-wrap: wrap;
+  }
+  .image1 {
+    margin-top: 850px;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    width: 100px;
+    height: 100px;
+  }
+  .businessimage {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    margin-left: 9%;
+    width: 300px;
+  }
+  .miracleimage {
+    margin-top: 30px;
+    margin-left: 9%;
+    width: 300px;
+    flex-wrap: wrap;
+  }
+  .image2txt {
+    flex-wrap: wrap;
+    display: none;
+  }
+  .image2txt:hover {
+    text-decoration: underline;
+  }
+  .image2txt2 {
+    color: lightseagreen;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin-left: 33%;
+    display: inline-block;
+  }
+  .image2txt2:hover {
+    text-decoration: underline;
+    flex-wrap: wrap;
+  }
+  .bodytxt1 {
+    display: none;
+  }
+  .valentinebox {
+    display: none;
+  }
+  .valentine1head {
+    display: none;
+  }
+  .valentine1txt {
+    display: none;
+  }
+  .underline {
+    display: none;
+  }
+  .underline:hover {
+    display: none;
+  }
+  .valentine2 {
+    display: none;
+  }
+  .valentine2img {
+    display: none;
+  }
+  .valentine2head {
+    display: none;
+  }
+  .valentine2txt {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .line:hover {
+    display: none;
+  }
+
+  .image3 {
+    margin-left: 30px;
+    flex-wrap: wrap;
+  }
+  .image3d {
+    flex-wrap: wrap;
+    display: none;
+  }
+  .button1 {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+    flex-wrap: wrap;
+    color: rgb(16, 199, 199);
+    margin-left: 10%;
+    margin-top: 1%;
+    font-size: 5px;
+  }
+  .button1:hover {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    flex-wrap: wrap;
+    padding: 6px 11px 6px 11px;
+    font-size: 7px;
+    color: rgb(16, 199, 199);
+    transition: 0.5s;
+    background-color: rgb(218, 215, 215);
+  }
+  .button2 {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+    flex-wrap: wrap;
+    color: rgb(16, 199, 199);
+    margin-left: 20%;
+    margin-top: 1%;
+    font-size: 5px;
+  }
+  .button2:hover {
+    border: 1px solid rgb(98, 221, 255);
+    border-radius: 30px;
+    flex-wrap: wrap;
+    padding: 6px 11px 6px 11px;
+    font-size: 7px;
+    color: rgb(16, 199, 199);
+    transition: 0.5s;
+    background-color: rgb(218, 215, 215);
+  }
+  .image4d {
+    display: none;
+  }
+  .image4 {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    margin-left: 10%;
+  }
+  .text {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .businesstxt2 {
+    width: 70%;
+    flex-wrap: wrap;
+    margin: 0% auto;
+  }
+  .txt2 {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 3px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .packageimg {
+    display: none;
+  }
+  .packagelogo {
+    display: none;
+  }
+  .pkgbutton {
+    display: none;
+  }
+  .pkgbutton:hover {
+    display: none;
+  }
+  .packageimg1 {
+    display: none;
+  }
+  .packagelogo1 {
+    display: none;
+  }
+  .pkgbutton1 {
+    display: none;
+  }
+  .pkgbutton1:hover {
+    display: none;
+  }
+  .table {
+    margin-left: 0%;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  .tablehead {
+    color: purple;
+    padding: 15px;
+    flex-wrap: wrap;
+    padding-left: 10px;
+  }
+  .tablebody {
+    padding: 0px;
+    flex-wrap: wrap;
+  }
+  .tablebody:hover {
+    text-decoration: underline;
+    flex-wrap: wrap;
+  }
+  .lastpg {
+    margin-left: 15px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    height: 70px;
+  }
+  .footer {
+    background-color: rgb(69, 4, 142);
+    width: 100%;
+    flex-wrap: wrap;
+    height: 50px;
+    bottom: 0;
+    display: flex;
+  }
+  .footer1 {
+    margin-left: 5%;
+    flex-wrap: wrap;
+    margin-top: 0%;
+    color: white;
+  }
+  .footer2 {
+    margin-left: 8%;
+    margin-top: 0%;
+    color: white;
+    flex-wrap: wrap;
+  }
+}
